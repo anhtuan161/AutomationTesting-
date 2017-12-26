@@ -14,7 +14,8 @@ Updating...
 
 Some documents & tips:
 
-[Improving Application Speed and Quality](https://dzone.com/guides/automated-testing-improving-application-speed-and)
+[Improving Application Speed and Quality](https://dzone.com/guides/automated-testing-improving-application-speed-and).
+
 [Every programmer should know](https://github.com/mr-mig/every-programmer-should-know)
 
 ## Mobile
