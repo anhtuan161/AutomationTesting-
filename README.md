@@ -18,11 +18,7 @@ Some documents & tips:
 
 [Every programmer should know](https://github.com/mr-mig/every-programmer-should-know)
 
-## Mobile
-
-Explain how to run the automated tests for this system
-
-### Get mobile's Xpath
+### Mobile's XPath
 [Refer](https://www.w3.org/TR/xpath/#section-Location-Steps)
 
 Not recommend to get Mobile's element by Xpath. Because it's will impact to performance when we run mobile's script. Specially, we can see more clearly when run on IOS's scripts using Appium.
@@ -34,7 +30,7 @@ example:
 ```
 Updating..
 
-### Web Application's Xpath
+### Web Application's XPath
 
 Example 1:
 ```
@@ -55,9 +51,13 @@ Example 1:
 ```
 
 Source: [xpath_tips](https://www.xml.com/pub/a/2002/08/14/xpath_tips.html)
-## Others
 
-Add additional notes about how to deploy this on a live system
+
+
+## Others tips
+
+Explain how to run the automated tests for this system
+
 
 ## References
 * [Readme Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md/) -  PurpleBooth
@@ -67,9 +67,6 @@ Add additional notes about how to deploy this on a live system
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
