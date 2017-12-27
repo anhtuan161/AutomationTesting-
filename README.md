@@ -19,12 +19,12 @@ Some documents & tips:
 [Every programmer should know](https://github.com/mr-mig/every-programmer-should-know)
 
 ### Mobile's XPath
-[Refer](https://www.w3.org/TR/xpath/#section-Location-Steps)
+Documents: [Refer](https://www.w3.org/TR/xpath/#section-Location-Steps)
 
 Not recommend to get Mobile's element by Xpath. Because it's will impact to performance when we run mobile's script. Specially, we can see more clearly when run on IOS's scripts using Appium.
 
+Example 1
 ```
-example:
 //parentnode/Employee[@name='<name>' and @DOB='<dateofbirth>']
 //XCUIElementTypeButton[contains(@name,'Edit')]
 ```
@@ -32,7 +32,7 @@ Updating..
 
 ### Web Application's XPath
 
-Example 1:
+Example 1: Get element whose type is "shingles", but only if the manufacturer is "Nash"
 ```
  <roofing-material> 
 
@@ -50,13 +50,33 @@ Example 1:
 //roofing-material[type[preceding-sibling::manufacturer="Nash"]="shingles"]
 ```
 
+Example 2:
+```
+  <tosses> 
+
+      <toss result="heads"/> 
+
+      <toss result="heads"/> 
+
+      <toss result="tails"/> 
+
+      <toss result="heads"/> 
+
+   </tosses>
+```
+```
+(//toss)[@result="heads"][3] - Correct
+
+(//toss)[3][@result="heads"] - Returns an empty node-set
+```
+
 Source: [xpath_tips](https://www.xml.com/pub/a/2002/08/14/xpath_tips.html)
 
 
 
 ## Others tips
 
-Explain how to run the automated tests for this system
+http://developers.perfectomobile.com/pages/viewpage.action?pageId=19170717
 
 
 ## References
