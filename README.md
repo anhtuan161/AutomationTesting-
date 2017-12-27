@@ -34,14 +34,27 @@ example:
 ```
 Updating..
 
-### And coding style tests
+### Web Application's Xpath
 
-Explain what these tests test and why
-
+Example 1:
 ```
-Give an example
+ <roofing-material> 
+
+         <manufacturer>Nash</manufacturer> 
+
+         <type>shingles</type> 
+
+      </roofing-material> 
+```
+```
+//roofing-material[type="shingles"][manufacturer="Nash"] 
+
+//roofing-material[type="shingles" and manufacturer="Nash"] 
+
+//roofing-material[type[preceding-sibling::manufacturer="Nash"]="shingles"]
 ```
 
+Source: [xpath_tips](https://www.xml.com/pub/a/2002/08/14/xpath_tips.html)
 ## Others
 
 Add additional notes about how to deploy this on a live system
