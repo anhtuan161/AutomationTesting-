@@ -31,6 +31,7 @@ Example 1
 Updating..
 
 ### Web Application's XPath
+Refer: http://everydayxpath.com/ref/functions/
 
 Example 1: Get element whose type is "shingles", but only if the manufacturer is "Nash"
 ```
