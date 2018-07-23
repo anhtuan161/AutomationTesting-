@@ -81,7 +81,7 @@ http://developers.perfectomobile.com/pages/viewpage.action?pageId=19170717
 
 
 ## References
-http://everydayxpath.com/ref/functions/
+* [Xpath tips](http://everydayxpath.com/ref/functions/)
 * [Readme Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md/) -  PurpleBooth
 
 
