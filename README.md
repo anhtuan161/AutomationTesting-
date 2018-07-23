@@ -31,7 +31,7 @@ Example 1
 Updating..
 
 ### Web Application's XPath
-Refer: http://everydayxpath.com/ref/functions/
+
 
 Example 1: Get element whose type is "shingles", but only if the manufacturer is "Nash"
 ```
@@ -81,6 +81,7 @@ http://developers.perfectomobile.com/pages/viewpage.action?pageId=19170717
 
 
 ## References
+http://everydayxpath.com/ref/functions/
 * [Readme Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md/) -  PurpleBooth
 
 
